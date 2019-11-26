@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity2"
+            android:label="MainActivity2" >
+        </activity>
+        <activity
+            android:name=".ToInfActivity"
+            android:label="ToInfActivity" >
+        </activity>
+        <activity
+            android:name=".ComeBackActivity"
+            android:label="ComeBackActivity" >
+        </activity>
     </application>
 
 </manifest>
