@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/pyrkin"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="242dp"
+            android:layout_height="397dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="349dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="Physics test" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="284dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/emptystring"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Task1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. ЃС?РёСЂ FORMULA Р°СЃС?РёСЂ" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task1.1"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:clickable="true"
+                        android:text="140" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task1.2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:clickable="true"
+                        android:text="a*tˆ2 / 2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task1.3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:text="120" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Task2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. ЃС?Рё DEGREE Р°СЃС" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task2.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:text="100°" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task2.2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:text="6020°" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task2.3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:bufferType="normal"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:text="East" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Task3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. W%?Р M = 12tˆ2 + 4t С?СЂ t = 2 Ie?" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task3.1"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:clickable="true"
+                        android:text="48" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task3.2"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:clickable="true"
+                        android:text="56" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:id="@+id/Task3.3"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:clickable="true"
+                        android:text="14t" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableRow
+                android:layout_width="230dp"
+                android:layout_height="310dp">
+
+                <Button
+                    android:id="@+id/Button"
+                    android:layout_width="190dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="@drawable/buttons"
+                    android:text="Check" />
+            </TableRow>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

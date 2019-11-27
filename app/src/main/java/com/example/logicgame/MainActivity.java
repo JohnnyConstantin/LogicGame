@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private static final int REQ_C = 0;
+    private static final int RESULT_OK = 0;
     Button button, button2, button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (v.getId()) {
                     case R.id.button:
                         i = new Intent(MainActivity.this, MainActivity2.class);
-                        startActivity(i);
+                        startActivityForResult(i, RESULT_OK);
                         break;
                     case R.id.button2:
                         i = new Intent(MainActivity.this, ToInfActivity.class);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.button3:
                         i = new Intent(MainActivity.this, ComeBackActivity.class);
-                        startActivityForResult(i, REQ_C);
+                        startActivity(i);
                         break;
                     default:
                         return;
